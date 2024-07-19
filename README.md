@@ -1,12 +1,12 @@
 # Extracting Actions from Keystroke Data
 
 Scripts from the manuscript titled "Unveiling the Dynamics of Source-Based Writing: Insights from Keystroke Logging and Process Mining" (under review)
-by Fien De Smedt, Rianne Conijn, Nina Vendermeulen, Karen Putzeys, Bram De Wever, and Hilde Van Keer.
+by authors.
 
 The code details the following steps as described in the paper:
 (1) Extraction and cleaning of keystroke data -- load_data.R & transform_times.R
 
-(2) Extraction of revision events as needed for (3) -- add_revision_info.R (following https://github.com/RConijn/RevisionEvent)
+(2) Extraction of revision events as needed for (3) -- add_revision_info.R (following https://github.com/anonymized)
 
 (3) Extraction of actions needed for the process mining analysis -- create_indicators.R
 
